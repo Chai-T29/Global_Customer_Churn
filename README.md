@@ -8,19 +8,19 @@ We’ll use several powerful machine learning techniques, including Logistic Reg
 
 Key Questions
 
-	1.	How effective are Logistic Regression models in predicting customer churn?
-	2.	How do other models compare to Logistic Regression in terms of performance?
-	3.	What insights can we gain from predicting churn to shape business strategies?
+1.	How effective are Logistic Regression models in predicting customer churn?
+2.	How do other models compare to Logistic Regression in terms of performance?
+3.	What insights can we gain from predicting churn to shape business strategies?
 
 Project Components
 
-	1.	Setup: Importing Packages and Loading Data: Initial setup for tools and data.
-	2.	Exploratory Data Visualization: Visual analysis to understand data patterns.
-	3.	Preprocessing the Data: Data cleaning and preparation for modeling.
-	4.	PCA for Dimensionality Reduction: Reducing feature dimensions while retaining crucial information.
-	5.	Logistic Regression: Implementing and comparing gradient ascent and Newton’s method.
-	6.	Other Models: Evaluating Decision Trees, Support Vector Machines, K-Nearest Neighbors, Random Forest, and Gradient Boosting.
-	7.	Observations / Results: Analyzing model performance and deriving insights.
+1.	Setup: Importing Packages and Loading Data: Initial setup for tools and data.
+2.	Exploratory Data Visualization: Visual analysis to understand data patterns.
+3.	Preprocessing the Data: Data cleaning and preparation for modeling.
+4.	PCA for Dimensionality Reduction: Reducing feature dimensions while retaining crucial information.
+5.	Logistic Regression: Implementing and comparing gradient ascent and Newton’s method.
+6.	Other Models: Evaluating Decision Trees, Support Vector Machines, K-Nearest Neighbors, Random Forest, and Gradient Boosting.
+7.	Observations / Results: Analyzing model performance and deriving insights.
  
 Requirements
 
@@ -31,14 +31,14 @@ pip install numpy pandas matplotlib seaborn scikit-learn
 
 Workflow
 
-	1.	Setup: Importing Packages and Loading Data: We’ll start by importing the necessary libraries and loading our dataset from Kaggle. There's a link in the notebook to the dataset.
-	2.	Exploratory Data Visualization: Through visualizations, we will uncover patterns and relationships in the data, which will help in understanding the features and their distributions.
-	3.	Preprocessing the Data: This step involves handling missing values, creating dummy variables for categorical data, and scaling the features to prepare them for modeling.
-	4.	PCA for Dimensionality Reduction: We will use PCA to reduce the number of features while retaining the most important information, which helps in improving model performance and reducing computational cost.
-	5.	Logistic Regression:
+1.	Setup: Importing Packages and Loading Data: We’ll start by importing the necessary libraries and loading our dataset from Kaggle. There's a link in the notebook to the dataset.
+2.	Exploratory Data Visualization: Through visualizations, we will uncover patterns and relationships in the data, which will help in understanding the features and their distributions.
+3.	Preprocessing the Data: This step involves handling missing values, creating dummy variables for categorical data, and scaling the features to prepare them for modeling.
+4.	PCA for Dimensionality Reduction: We will use PCA to reduce the number of features while retaining the most important information, which helps in improving model performance and reducing computational cost.
+5.	Logistic Regression:
 	•	Gradient Ascent: Implementing logistic regression using the gradient ascent method.
 	•	Newton’s Method: Implementing logistic regression using Newton’s method and comparing its performance with gradient ascent.
-	6.	Other Models: We’ll explore and compare the performance of various models provided by the sklearn library:
+6.	Other Models: We’ll explore and compare the performance of various models provided by the sklearn library:
 	•	Decision Trees
 	•	Support Vector Machines
 	•	K-Nearest Neighbors
